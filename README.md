@@ -1,14 +1,23 @@
 # Gruppe-A-L
 
-## Titel: Handyapp 
+## **Titel**: 
 
-## Autoren: Lucas Vogt und Alexander Urkaev 
+*Handyapp* 
 
-## Zeitraum : 01.02.2022 bis ?.06.2022
+## **Autoren**: 
 
-## Betreuer : Herr  Martin, Stephan Strittmatter
+*Lucas Vogt und Alexander Urkaev* 
 
-# 1. test
-## 2. test1
-### 3. test2
- 
+## **Zeitraum** : 
+
+*01.02.2022 bis ?.06.2022*
+
+##  **Betreuer** : 
+
+*Herr  Martin, Stephan Strittmatter*
+
+## **Programmiersprache**: 
+
+*Html, Java , Markdowm*
+
+- Änderung abgeschlossen
