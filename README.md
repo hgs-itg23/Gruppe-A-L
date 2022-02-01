@@ -18,6 +18,6 @@
 
 ## **Programmiersprache**: 
 
-*Html, Java , Markdowm*
+*Html, Java , Markdown*
 
 - Änderung abgeschlossen
