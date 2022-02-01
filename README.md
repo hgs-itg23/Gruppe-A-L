@@ -20,4 +20,9 @@
 
 *Html, Java , Markdown*
 
+##  **Projektideen**:
+
+Geschichtsrätsel(Multiple choice); Gechichte aus mehreren persepektiven; Kugel(eher nicht)
+
+
 - Änderung abgeschlossen
