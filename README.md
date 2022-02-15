@@ -25,4 +25,10 @@
 Geschichtsrätsel(Multiple choice); Gechichte aus mehreren persepektiven; Kugel(eher nicht)
 
 
-- Änderung abgeschlossen (2.)
+## **Projektarbeit vom 15.02.2022**:
+
+*Sequenzdiagramm eingeleitet - Projekt wird im Sequenzdiagramm gezeichnet.*
+
+
+
+- Änderung abgeschlossen (2. 15.02.22 | )
