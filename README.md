@@ -30,5 +30,8 @@ Geschichtsrätsel(Multiple choice); Gechichte aus mehreren persepektiven; Kugel(
 *Sequenzdiagramm eingeleitet - Projekt wird im Sequenzdiagramm gezeichnet.*
 
 
+## **Projektarbeit vom 08.03.2022**:
+
+*Userstory geschrieben, sowie auch das Sequenzdiagramm.*
 
 - Änderung abgeschlossen (2. 15.02.22 | )
