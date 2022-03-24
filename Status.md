@@ -9,3 +9,9 @@
 | Was haben wir gemacht? | Gab es Probleme?| Was haben wir als nächstes vor? (Sprint 1)|
 | :--------------------: | :-------------: | :-----------------------------: |
 | Wir haben in Java ausprobiert einen Frame, sammt button zu erstellen. Dies hat auch "geklappt".    | Nein. | In den nächsten Wochen werden wir lernen, wie man einen Frame und Button erstellt, außerdem ist noch im Rahmen die Logik des Projektes mit einzubauen, sprich wenn man den Button drückt, passiert das und das... | 
+
+### Status von den 24.03.2022
+
+| Was haben wir gemacht? | Gab es Probleme?| Was haben wir als nächstes vor? |
+| :--------------------: | :-------------: | :-----------------------------: |
+| Der Fortschritt an den Button erfolgt, perfektes Video wurde dazu gefunden.| DIe Userstory war Falsch geschrieben, aber diesen Fehler beheben wir. | Wir machen mit dem Button weiter und treffen so langsam an die Logik, sprich wenn man den Button anklickt erfolgt etwas und so weiter.  | 
