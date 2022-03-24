@@ -14,4 +14,4 @@
 
 | Was haben wir gemacht? | Gab es Probleme?| Was haben wir als nächstes vor? |
 | :--------------------: | :-------------: | :-----------------------------: |
-| Der Fortschritt an den Button erfolgt, perfektes Video wurde dazu gefunden.| DIe Userstory war Falsch geschrieben, aber diesen Fehler beheben wir. | Wir machen mit dem Button weiter und treffen so langsam an die Logik, sprich wenn man den Button anklickt erfolgt etwas und so weiter.  | 
+| Der Fortschritt an den Button erfolgt, perfektes Video wurde dazu gefunden (Bzw. der erforderliche Input).| DIe Userstory war Falsch geschrieben, aber diesen Fehler beheben wir. | Wir machen mit dem Button weiter und treffen so langsam an die Logik, sprich wenn man den Button anklickt erfolgt etwas und so weiter.  | 
