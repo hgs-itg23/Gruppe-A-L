@@ -15,3 +15,9 @@
 | Was haben wir gemacht? | Gab es Probleme?| Was haben wir als nächstes vor? |
 | :--------------------: | :-------------: | :-----------------------------: |
 | Der Fortschritt an den Button erfolgt, perfektes Video wurde dazu gefunden (Bzw. der erforderliche Input).| DIe Userstory war Falsch geschrieben, aber diesen Fehler beheben wir. | Wir machen mit dem Button weiter und treffen so langsam an die Logik, sprich wenn man den Button anklickt erfolgt etwas und so weiter.  | 
+
+### Status von den 29.03.2022
+
+| Was haben wir gemacht? | Gab es Probleme?| Was haben wir als nächstes vor? |
+| :--------------------: | :-------------: | :-----------------------------: |
+| Der Button ist gemacht, nun fehlt uns die Logik einzubinden, aber um die Logik haben wir ein gutes Video gefunden, dies eigentlich fertig stellt.| Soweit nicht. | Wir werden die logik nun mit dem Button kombinieren, sprich es anch dem klicken des buttons, soll ein Text in der Konsole aufkommen .   | 
