@@ -27,3 +27,7 @@
 | Was haben wir gemacht? | Gab es Probleme?| Was haben wir als nächstes vor? |
 | :--------------------: | :-------------: | :-----------------------------: |
 | Nichts, da wir beide krank waren.| Ja, da wir nicht da waren und somit nicht abreiten konnten. Die Userstorys waren ebenso falsch geschrieben.| Wir werden auf jeden Fall die fehlende Arbeit von der letzten Woche nachholen, außerdem werden wir in Laufe der nächsten Woche die Userstorys überarbeiten. | 
+
+## Status von den 03.05.202s
+| Was haben wir gemacht? | Gab es Probleme?| Was haben wir als nächstes vor? |
+| :--------------------: | :--------------:| :------------------------------:|
