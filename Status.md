@@ -31,3 +31,4 @@
 ## Status von den 03.05.202s
 | Was haben wir gemacht? | Gab es Probleme?| Was haben wir als nächstes vor? |
 | :--------------------: | :--------------:| :------------------------------:|
+| Wir haben unser Programm weiter ausgebessert, nun fehlt uns noch das wir unsere Bilder in einen Array einbinden.| Ja,ein paar kleine Fehler die wir aber behoben haben.|Jetzt gerade setzten wir unsere Fokus darauf die Bilder in einem Array einzubinden und nebenbei unsere Desgin von unserem Spiel auszubessern.|
