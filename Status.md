@@ -28,7 +28,7 @@
 | :--------------------: | :-------------: | :-----------------------------: |
 | Nichts, da wir beide krank waren.| Ja, da wir nicht da waren und somit nicht abreiten konnten. Die Userstorys waren ebenso falsch geschrieben.| Wir werden auf jeden Fall die fehlende Arbeit von der letzten Woche nachholen, außerdem werden wir in Laufe der nächsten Woche die Userstorys überarbeiten. | 
 
-## Status von den 03.05.202s
+## Status von den 03.05.2022
 | Was haben wir gemacht? | Gab es Probleme?| Was haben wir als nächstes vor? |
 | :--------------------: | :--------------:| :------------------------------:|
 | Wir haben unser Programm weiter ausgebessert, nun fehlt uns noch das wir unsere Bilder in einen Array einbinden.| Ja,ein paar kleine Fehler die wir aber behoben haben.|Jetzt gerade setzten wir unsere Fokus darauf die Bilder in einem Array einzubinden und nebenbei unsere Desgin von unserem Spiel auszubessern.|
