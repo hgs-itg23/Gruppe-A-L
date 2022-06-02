@@ -42,4 +42,4 @@
 ## Status von den 02.06.2022
 | Was haben wir gemacht? | Gab es Probleme?| Was haben wir als nächstes vor? |
 | :--------------------: | :--------------:| :------------------------------:|
-|Wir haben uns letzte und diese Woche mit der Logik erneut beschäftigt. Wir haben die Antwort Möglichkeiten mit Bildern  verknüpft.|Wir haben noch ein paar fehler bei der Logik die wir nich ausbessern müssen|Die Gedchichte mit der Logik verknüpft fortzuführen|
+|Wir haben uns letzte und diese Woche mit der Logik erneut beschäftigt. Wir haben die Antwort Möglichkeiten mit Bildern  verknüpft.|Wir haben noch ein paar fehler bei der Logik die wir nich ausbessern müssen|Die Geschichte mit der Logik verknüpft fortzuführen|
