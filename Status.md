@@ -37,3 +37,9 @@
 | Was haben wir gemacht? | Gab es Probleme?| Was haben wir als nächstes vor? |
 | :--------------------: | :--------------:| :------------------------------:|
 | An unserem Programm weiter gearbeitet|Wir haben die Fehler von letzen mal behoben|Bis jetzt sind wir noch unserem Array drann|
+
+
+## Status von den 02.06.2022
+| Was haben wir gemacht? | Gab es Probleme?| Was haben wir als nächstes vor? |
+| :--------------------: | :--------------:| :------------------------------:|
+|Wir haben uns letzte und diese Woche mit der Logik erneut beschäftigt. Wir haben die Antwort Möglichkeiten mit Bildern  verknüft.|Wir haben noch ein paar fehler bei der Logik die wir nich ausbessern müssen|Die Gedchichte mit der Logik verknüft fortzuführen|
