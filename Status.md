@@ -43,3 +43,8 @@
 | Was haben wir gemacht? | Gab es Probleme?| Was haben wir als nächstes vor? |
 | :--------------------: | :--------------:| :------------------------------:|
 |Wir haben uns letzte und diese Woche mit der Logik erneut beschäftigt. Wir haben die Antwort Möglichkeiten mit Bildern  verknüpft.|Wir haben noch ein paar fehler bei der Logik die wir nich ausbessern müssen|Die Geschichte mit der Logik verknüpft fortzuführen|
+
+## Status von den 23.06.2022
+| Was haben wir gemacht? | Gab es Probleme?| Was haben wir als nächstes vor? |
+| :--------------------: | :--------------:| :------------------------------:|
+| Wir haben die ganze Logik fertig gemacht und noch ein Reset-button programmiert.|Wir müssen nich den Reset-button ins Programm einfügen.|Wir wollen als nächstes unser Projekt anfangen und dann die Dokumentation starten  |
