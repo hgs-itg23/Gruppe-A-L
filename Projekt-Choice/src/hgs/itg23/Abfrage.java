@@ -7,7 +7,16 @@ import javax.swing.*;
 
 public class Abfrage implements ActionListener {
 
-		
+
+	ImageIcon B1 = new ImageIcon("wen.png");
+	ImageIcon B2 = new ImageIcon("wen.png");
+	ImageIcon B3 = new ImageIcon("wen.png");
+	ImageIcon B4 = new ImageIcon("wen.png");
+	ImageIcon B5 = new ImageIcon("wen.png");
+	ImageIcon B6 = new ImageIcon("wen.png");
+	
+	
+	
 	String[] fragen = {			"Test1?",
 								"Test?",
 							    "Oder doch Test3?"
@@ -26,7 +35,14 @@ public class Abfrage implements ActionListener {
 							
 					};
 	
-	
+	ImageIcon[][] bilder  =  {		{B1,B3},
+									{B2,B4},
+									{B5,B6}
+								
+			
+			
+			
+	};
 	
 	  String erraten;
 	  String antwort;
@@ -35,6 +51,7 @@ public class Abfrage implements ActionListener {
 	  int alle_fragen = fragen.length;
 	  int ergebnis;
 	  int sekunden = 10;
+	  int sekunden_uebrig;
 	  
 	 
 	 
@@ -52,15 +69,21 @@ public class Abfrage implements ActionListener {
 	JLabel zeit_label = new JLabel();
 	JLabel rest_zeit = new JLabel();
 	JTextField richtige_antworten = new JTextField();
+	JLabel pic = new JLabel();
 	
 	public Abfrage() {
 			
+		
+		
+		
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(1920, 1080);
 		frame.getContentPane().setBackground(new Color(50,50,50));
 		frame.setLayout(null);
 		frame.setResizable(true);
+		
+		
 		
 		textfeld.setBounds(234, 43, 650, 50);										//Höchste priorität
 		textfeld.setBackground(Color.BLACK);										// Optional
@@ -147,8 +170,9 @@ public class Abfrage implements ActionListener {
 		frame.add(button3);
 		frame.add(textbereich);
 		frame.add(textfeld);
+		frame.add(pic);
 		frame.setVisible(true);
-			
+		
 		
 		N_Abfrage();
 		
@@ -183,16 +207,24 @@ public class Abfrage implements ActionListener {
 				
 				antwort = "1";
 				
+								
+				
 				if (antwort == antworten[index]) {
 					
 					richtig_erraten++;
 					
 				}
+				
+				
+				
 			}
 			
 if(e.getSource()==button2) {
 				
 				antwort = "2";
+				
+				
+				
 				
 				if (antwort == antworten[index]) {
 					
@@ -204,17 +236,62 @@ if(e.getSource()==button3) {
 	
 	antwort = "3";
 	
+	
+	
 	if (antwort == antworten[index]) {
 		
 		richtig_erraten++;
 		
 	}
 }
+		Anzeige();	
+			
+		}
+/*
+		public void bild() {
+			
+			button1.setEnabled(false);
+			button2.setEnabled(false);
+			button3.setEnabled(false);
+			Antwort1_label.setEnabled(false);
+			Antwort2_label.setEnabled(false);
+			Antwort3_label.setEnabled(false);
+			textbereich.setEnabled(false);
+			
+			
+			
 			
 			
 		}
 
+	*/	
+		
 		public void Anzeige() {
+			
+			button1.setEnabled(false);
+			button2.setEnabled(false);
+			button3.setEnabled(false);
+			
+			Timer pause = new Timer(2000, new ActionListener() {
+
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					
+					
+				index++;
+				button1.setEnabled(true);
+				button2.setEnabled(true);
+				button3.setEnabled(true);
+				
+				N_Abfrage();
+					
+				}
+				
+			});
+			
+			pause.setRepeats(false);
+			pause.start();
+			
 			
 		}
 		
