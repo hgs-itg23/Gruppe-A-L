@@ -14,7 +14,7 @@ public class Abfrage implements ActionListener {
 	ImageIcon B4 = new ImageIcon("cc.jpg");
 	ImageIcon B5 = new ImageIcon("ll.jpg");
 	ImageIcon B6 = new ImageIcon("nn.jpg");
-	ImageIcon B7 = new ImageIcon("");
+	ImageIcon B7 = new ImageIcon("pac.png");
 	
 	
 	String[] fragen = {			"Test1?",
@@ -35,16 +35,16 @@ public class Abfrage implements ActionListener {
 							
 					};
 	
-	ImageIcon[][] bilder  =  {		{B1,B3},
-									{B2,B3},
-									{B3,B1}
+	ImageIcon[][] bilder  =  {		{B1,B3,B2,},
+									{B2,B3,B1},
+									{B3,B1,B2}
 			
 	};
 	
 	  String erraten;
 	  String antwort;
 	  int index;
-	  int richtig_erraten = 0;
+	  int falscheantwort = 0;
 	  int alle_fragen = fragen.length;
 	  int ergebnis;
 	  int sekunden = 10;
@@ -66,7 +66,9 @@ public class Abfrage implements ActionListener {
 	JLabel zeit_label = new JLabel();
 	JLabel rest_zeit = new JLabel();
 	JTextField richtige_antworten = new JTextField();
+	
 	JLabel pic = new JLabel();
+	
 	
 	public Abfrage() {
 			
@@ -149,6 +151,9 @@ public class Abfrage implements ActionListener {
 		rest_zeit.setHorizontalAlignment(rest_zeit.CENTER);
 		
 		
+		
+		
+		
 		richtige_antworten.setBounds(225, 225, 200, 100);
 		richtige_antworten.setBackground(Color.BLUE);
 		richtige_antworten.setForeground(Color.BLACK);
@@ -161,8 +166,9 @@ public class Abfrage implements ActionListener {
 		pic.setVisible(false);
 		
 		
-		//frame.add(richtige_antworten);
-		frame.add(rest_zeit);
+	
+		
+		//frame.add(rest_zeit);
 		frame.add(Antwort1_label);
 		frame.add(Antwort2_label);
 		frame.add(Antwort3_label);
@@ -172,7 +178,9 @@ public class Abfrage implements ActionListener {
 		frame.add(textbereich);
 		frame.add(textfeld);
 		frame.add(pic);
+		
 		frame.setVisible(true);
+		
 		
 		
 		N_Abfrage();
@@ -184,7 +192,8 @@ public class Abfrage implements ActionListener {
 			
 			if(index>= alle_fragen) {
 				
-				Punkte();
+				end();
+				
 			} 
 			else {
 				
@@ -216,7 +225,7 @@ public class Abfrage implements ActionListener {
 				
 				if (antwort == antworten[index]) {
 					
-					richtig_erraten++;
+					falscheantwort++;
 					
 				}
 				
@@ -235,7 +244,7 @@ if(e.getSource()==button2) {
 				
 				if (antwort == antworten[index]) {
 					
-					richtig_erraten++;
+					falscheantwort++;
 					
 				}
 			}
@@ -251,7 +260,7 @@ if(e.getSource()==button3) {
 	
 	if (antwort == antworten[index]) {
 		
-		richtig_erraten++;
+		falscheantwort++;
 		
 	}
 }
@@ -368,8 +377,21 @@ pic.setVisible(true);
 		}
 		
 		
-		public void Punkte() {
+		public void end() {
+			button1.setEnabled(false);
+			button2.setEnabled(false);
+			button3.setEnabled(false);
 			
+			ergebnis = (int)((falscheantwort/(double)alle_fragen)*100);
+			
+			textfeld.setText("Dein Ergebnis");
+			textbereich.setText("");
+			Antwort1_label.setText("");
+			Antwort2_label.setText("");
+			Antwort3_label.setText("");
+			richtige_antworten.setText("("+falscheantwort+"/"+alle_fragen+ ")");
+			
+			frame.add(richtige_antworten);
 			
 		}
 		
