@@ -7,13 +7,13 @@ import javax.swing.*;
 
 public class Abfrage implements ActionListener {
 
-
+	int i = 0;
 	ImageIcon B1 = new ImageIcon("wen.png");
-	ImageIcon B2 = new ImageIcon("wen.png");
-	ImageIcon B3 = new ImageIcon("wen.png");
-	ImageIcon B4 = new ImageIcon("wen.png");
-	ImageIcon B5 = new ImageIcon("wen.png");
-	ImageIcon B6 = new ImageIcon("wen.png");
+	ImageIcon B2 = new ImageIcon("pac.png");
+	ImageIcon B3 = new ImageIcon("wa.png");
+	ImageIcon B4 = new ImageIcon("cc.jpg");
+	ImageIcon B5 = new ImageIcon("ll.jpg");
+	ImageIcon B6 = new ImageIcon("nn.jpg");
 	
 	
 	
@@ -35,9 +35,9 @@ public class Abfrage implements ActionListener {
 							
 					};
 	
-	ImageIcon[][] bilder  =  {		{B1,B3},
-									{B2,B4},
-									{B5,B6}
+	ImageIcon[][] bilder  =  {		{B1,B4},
+									{B2,B5},
+									{B3,B6}
 								
 			
 			
@@ -91,7 +91,7 @@ public class Abfrage implements ActionListener {
 		textfeld.setFont(new Font("Ink Free", Font.BOLD,30));          				// WICHTIG! Ändern
 		textfeld.setBorder(BorderFactory.createBevelBorder(1));						// So lassen
 		textfeld.setHorizontalAlignment(textfeld.CENTER);							// Optional	
-		textfeld.setEditable(false);												// So lassen
+		textfeld.setEditable(false);												// So lassen90ßßßßßßßßßßßßßßßßß
 		textfeld.setText("Test");													//	Ändern so bald fertig
 										
 		
@@ -160,8 +160,12 @@ public class Abfrage implements ActionListener {
 		richtige_antworten.setHorizontalAlignment(richtige_antworten.CENTER); // JTextField.CENTER
 		richtige_antworten.setEditable(false);
 		
+		pic.setBounds(525, 525, 500, 500);
+		pic.setVisible(false);
+		pic.setIcon(bilder[0][0]);
+		
 		//frame.add(richtige_antworten);
-		//frame.add(rest_zeit);
+		frame.add(rest_zeit);
 		frame.add(Antwort1_label);
 		frame.add(Antwort2_label);
 		frame.add(Antwort3_label);
@@ -206,8 +210,10 @@ public class Abfrage implements ActionListener {
 			if(e.getSource()==button1) {
 				
 				antwort = "1";
+							
 				
-								
+				
+				
 				
 				if (antwort == antworten[index]) {
 					
@@ -244,27 +250,102 @@ if(e.getSource()==button3) {
 		
 	}
 }
-		Anzeige();	
+		bild();	
 			
 		}
-/*
+		
+		
+
 		public void bild() {
 			
-			button1.setEnabled(false);
-			button2.setEnabled(false);
-			button3.setEnabled(false);
-			Antwort1_label.setEnabled(false);
-			Antwort2_label.setEnabled(false);
-			Antwort3_label.setEnabled(false);
-			textbereich.setEnabled(false);
+			
+			pic.setVisible(true);
+			
+			Timer m1 = new Timer(2000, new ActionListener() {
+
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					// TODO Auto-generated method stub
+					if(e.getSource()==button1) {
+						
+						i++;
+						int d = 0;
+						d++;
+						
+						
+						System.out.println(bilder[d][i]);
+						
+						
+					}
+					pic.setVisible(false);
+				}
+			
+			});
+			
+			m1.setRepeats(false);
+			m1.start();
+			
+			pic.setVisible(true);
+			
+			Timer m2 = new Timer(2000, new ActionListener() {
+			
+				
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					// TODO Auto-generated method stub
+					if(e.getSource()==button2) {
+				
+					i++;
+					int h = 0;
+					h++;
+					
+			System.out.println(bilder[h][i]);		
+						
+						
+					}
+					pic.setVisible(false);
+					}		
+				
+			});
+			
+			m2.setRepeats(false);
+			m2.start();
 			
 			
+pic.setVisible(true);
 			
+			Timer m3 = new Timer(2000, new ActionListener() {
 			
+				
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					// TODO Auto-generated method stub
+					if(e.getSource()==button3) {
+				
+					i++;
+					int t = 0;
+					t++;
 			
+			System.out.println(bilder[t][i]);		
+					
+						
+						
+					}
+					pic.setVisible(false);
+					}		
+				
+			});
+			
+			m3.setRepeats(false);
+			m3.start();
+				
+				
+		Anzeige();
+
+		
 		}
 
-	*/	
+
 		
 		public void Anzeige() {
 			
