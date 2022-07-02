@@ -8,8 +8,8 @@ import javax.swing.*;
 public class Abfrage implements ActionListener {
 
 	int i = 0;
-	ImageIcon B1 = new ImageIcon("wen.png");
-	ImageIcon B2 = new ImageIcon("pac.png");
+	ImageIcon B1 = new ImageIcon("pac.png");
+	ImageIcon B2 = new ImageIcon("wen.png");
 	ImageIcon B3 = new ImageIcon("wa.png");
 	ImageIcon B4 = new ImageIcon("cc.jpg");
 	ImageIcon B5 = new ImageIcon("ll.jpg");
@@ -35,12 +35,9 @@ public class Abfrage implements ActionListener {
 							
 					};
 	
-	ImageIcon[][] bilder  =  {		{B1,B4},
-									{B2,B5},
-									{B3,B6}
-								
-			
-			
+	ImageIcon[][] bilder  =  {		{B1,B3},
+									{B2,B3},
+									{B3,B1}
 			
 	};
 	
@@ -162,7 +159,7 @@ public class Abfrage implements ActionListener {
 		
 		pic.setBounds(525, 525, 500, 500);
 		pic.setVisible(false);
-		pic.setIcon(bilder[0][0]);
+		
 		
 		//frame.add(richtige_antworten);
 		frame.add(rest_zeit);
@@ -211,6 +208,8 @@ public class Abfrage implements ActionListener {
 				
 				antwort = "1";
 							
+			
+			pic.setIcon(bilder[0][i]);
 				
 				
 				
@@ -231,6 +230,8 @@ if(e.getSource()==button2) {
 				
 				
 				
+				pic.setIcon(bilder[1][i]);		
+						
 				
 				if (antwort == antworten[index]) {
 					
@@ -244,13 +245,17 @@ if(e.getSource()==button3) {
 	
 	
 	
+	
+	pic.setIcon(bilder[2][i]);	
+		
+	
 	if (antwort == antworten[index]) {
 		
 		richtig_erraten++;
 		
 	}
 }
-		bild();	
+		bild();
 			
 		}
 		
@@ -268,13 +273,8 @@ if(e.getSource()==button3) {
 					// TODO Auto-generated method stub
 					if(e.getSource()==button1) {
 						
-						i++;
-						int d = 0;
-						d++;
 						
-						
-						System.out.println(bilder[d][i]);
-						
+					
 						
 					}
 					pic.setVisible(false);
@@ -282,8 +282,7 @@ if(e.getSource()==button3) {
 			
 			});
 			
-			m1.setRepeats(false);
-			m1.start();
+			
 			
 			pic.setVisible(true);
 			
@@ -295,12 +294,8 @@ if(e.getSource()==button3) {
 					// TODO Auto-generated method stub
 					if(e.getSource()==button2) {
 				
-					i++;
-					int h = 0;
-					h++;
 					
-			System.out.println(bilder[h][i]);		
-						
+					
 						
 					}
 					pic.setVisible(false);
@@ -322,11 +317,7 @@ pic.setVisible(true);
 					// TODO Auto-generated method stub
 					if(e.getSource()==button3) {
 				
-					i++;
-					int t = 0;
-					t++;
-			
-			System.out.println(bilder[t][i]);		
+					
 					
 						
 						
@@ -358,7 +349,7 @@ pic.setVisible(true);
 				@Override
 				public void actionPerformed(ActionEvent e) {
 					
-					
+				i++;	
 				index++;
 				button1.setEnabled(true);
 				button2.setEnabled(true);
