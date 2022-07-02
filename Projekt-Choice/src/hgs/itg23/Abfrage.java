@@ -14,7 +14,7 @@ public class Abfrage implements ActionListener {
 	ImageIcon B4 = new ImageIcon("cc.jpg");
 	ImageIcon B5 = new ImageIcon("ll.jpg");
 	ImageIcon B6 = new ImageIcon("nn.jpg");
-	
+	ImageIcon B7 = new ImageIcon("");
 	
 	
 	String[] fragen = {			"Test1?",
@@ -254,7 +254,7 @@ if(e.getSource()==button3) {
 			
 		}
 		
-		
+		//g
 
 		public void bild() {
 			
