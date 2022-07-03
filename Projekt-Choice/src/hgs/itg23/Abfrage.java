@@ -23,8 +23,8 @@ public class Abfrage implements ActionListener {
 				      };
 	
 	String[][] moeglichkeiten = {
-									{"ad","as","ag"},
-									{"da","sa","ga"},
+									{"ja","nein","vllt"},
+									{"lol","ok","nein"},
 									{"vv","bb","nn"}
 								};
 	
@@ -70,7 +70,7 @@ public class Abfrage implements ActionListener {
 	JTextField richtige_antworten = new JTextField();
 	
 	JLabel pic = new JLabel();
-	
+	JLabel Anzeige = new JLabel();
 	
 	public Abfrage() {
 			
@@ -83,11 +83,12 @@ public class Abfrage implements ActionListener {
 		frame.getContentPane().setBackground(new Color(50,50,50));
 		frame.setLayout(null);
 		frame.setResizable(true);
+		frame.setBackground(Color.GREEN);
 		
 		
 		
-		textfeld.setBounds(234, 43, 650, 50);										//Höchste priorität
-		textfeld.setBackground(Color.BLACK);										// Optional
+		textfeld.setBounds(155, 43, 650, 50);										//Höchste priorität
+		textfeld.setBackground(Color.BLUE);										// Optional
 		textfeld.setForeground(Color.WHITE);										// Optional
 		textfeld.setFont(new Font("Ink Free", Font.BOLD,30));          				// WICHTIG! Ändern
 		textfeld.setBorder(BorderFactory.createBevelBorder(1));						// So lassen
@@ -96,9 +97,9 @@ public class Abfrage implements ActionListener {
 		textfeld.setText("Test");													//	Ändern so bald fertig
 										
 		
-		textbereich.setBounds(234, 93, 650, 50);	
+		textbereich.setBounds(155, 93, 650, 50);	
 		textbereich.setLineWrap(true);
-		textbereich.setBackground(Color.BLACK);										
+		textbereich.setBackground(Color.BLUE);										
 		textbereich.setForeground(Color.WHITE);										
 		textbereich.setFont(new Font("Arial Black", Font.BOLD,30));          				
 		textbereich.setBorder(BorderFactory.createBevelBorder(1));													
@@ -106,37 +107,41 @@ public class Abfrage implements ActionListener {
 		textbereich.setText("Test1");			
 		
 		
-		button1.setBounds(0, 200, 200, 200); 										//ändern
+		button1.setBounds(200, 200, 500, 100); 										//ändern
 		button1.setFont(new Font("Arial Black", Font.BOLD, 20)); 
-		button1.setBackground(Color.GRAY);
+		button1.setBackground(Color.BLUE);
+		button1.setForeground(Color.WHITE);	
 		button1.setFocusable(false);
 		button1.addActionListener(this);
 		button1.setText("1");
 		
 		
-		button2.setBounds(0, 450, 300, 100); 										//ändern
+		button2.setBounds(200, 400, 500, 100); 										//ändern
 		button2.setFont(new Font("Arial Black", Font.BOLD, 20)); 
-		button2.setBackground(Color.GRAY);
+		button2.setBackground(Color.BLUE);
+		button2.setForeground(Color.WHITE);	
 		button2.setFocusable(false);
 		button2.addActionListener(this);
 		button2.setText("2");
 		
-		button3.setBounds(0, 800, 200, 200); 										//ändern
+		button3.setBounds(200, 600, 500, 100); 										//ändern
 		button3.setFont(new Font("Arial Black", Font.BOLD, 20)); 
-		button3.setBackground(Color.GRAY);
+		button3.setBackground(Color.BLUE);
+		button3.setForeground(Color.WHITE);	
 		button3.setFocusable(false);
 		button3.addActionListener(this);
 		button3.setText("3");
 		
-		resetbutton.setBounds(1200, 100, 100, 100); 										//ändern
+		resetbutton.setBounds(1640, 10, 250, 100); 										//ändern
 		resetbutton.setFont(new Font("Arial Black", Font.BOLD, 20)); 
-		resetbutton.setBackground(Color.GRAY);
+		resetbutton.setBackground(Color.BLUE);
+		resetbutton.setForeground(Color.WHITE);	
 		resetbutton.setFocusable(false);
 		resetbutton.addActionListener(listener -> {
 
-            Antwort1_label.setText(moeglichkeiten[index][0]);
-            Antwort2_label.setText(moeglichkeiten[index][1]);
-            Antwort3_label.setText(moeglichkeiten[index][2]);
+		      Antwort1_label.setText(moeglichkeiten[index][0]);
+	            Antwort2_label.setText(moeglichkeiten[index][1]);
+	            Antwort3_label.setText(moeglichkeiten[index][2]);
             index = 0;
             textfeld.setText("Frage " + (index + 1));
             i = 0;
@@ -149,23 +154,23 @@ public class Abfrage implements ActionListener {
         });
 		resetbutton.setText("Reset");
 		
-		Antwort1_label.setBounds(425, 200, 500, 100);
-		Antwort1_label.setBackground(Color.darkGray);
-		Antwort1_label.setForeground(Color.LIGHT_GRAY);
+		Antwort1_label.setBounds(440, 300, 500, 100);
+		Antwort1_label.setBackground(Color.BLUE);
+		Antwort1_label.setForeground(Color.WHITE);
 		Antwort1_label.setFont(new Font("Arial Black", Font.BOLD, 20));
 		
 		
-		Antwort2_label.setBounds(225, 450, 500, 100);
-		Antwort2_label.setBackground(Color.darkGray);
+		Antwort2_label.setBounds(430, 500, 500, 100);
+		Antwort2_label.setBackground(Color.BLUE);
 		Antwort2_label.setForeground(Color.WHITE);
 		Antwort2_label.setFont(new Font("Arial Black", Font.BOLD, 20));
 		
-		Antwort3_label.setBounds(125, 800, 500, 100);
-		Antwort3_label.setBackground(Color.darkGray);
-		Antwort3_label.setForeground(Color.LIGHT_GRAY);
+		Antwort3_label.setBounds(430, 700, 500, 100);
+		Antwort3_label.setBackground(Color.BLUE);
+		Antwort3_label.setForeground(Color.WHITE);
 		Antwort3_label.setFont(new Font("Arial Black", Font.BOLD, 20));
 		
-		rest_zeit.setBounds(535, 510, 100, 100);
+		rest_zeit.setBounds(1200, 510, 100, 100);
 		rest_zeit.setBackground(Color.BLACK);
 		rest_zeit.setForeground(Color.BLUE);
 		rest_zeit.setFont(new Font("Arial Black", Font.BOLD, 20));
@@ -185,11 +190,11 @@ public class Abfrage implements ActionListener {
 		richtige_antworten.setHorizontalAlignment(richtige_antworten.CENTER); // JTextField.CENTER
 		richtige_antworten.setEditable(false);
 		
-		pic.setBounds(525, 525, 500, 500);
+		pic.setBounds(950, 150, 500, 550);
 		pic.setVisible(false);
 		
-		
-	
+		Anzeige.setBounds(1500, 10, 250, 100);
+		frame.add(Anzeige);                                                               // Alex anschauen
 		
 		//frame.add(rest_zeit);
 		frame.add(Antwort1_label);
@@ -204,6 +209,7 @@ public class Abfrage implements ActionListener {
 		frame.add(resetbutton);
         frame.add(resetbutton_label);
 		frame.setVisible(true);
+		
 		
 		
 		
@@ -372,6 +378,7 @@ pic.setVisible(true);
 
 		
 		public void Anzeige() {
+			
 			
 			button1.setEnabled(false);
 			button2.setEnabled(false);
