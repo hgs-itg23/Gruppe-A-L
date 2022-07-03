@@ -60,6 +60,8 @@ public class Abfrage implements ActionListener {
 	JButton button1 = new JButton();
 	JButton button2 = new JButton();
 	JButton button3 = new JButton();
+	JButton resetbutton = new JButton("reset");
+	JLabel resetbutton_label = new JLabel();
 	JLabel Antwort1_label = new JLabel();
 	JLabel Antwort2_label = new JLabel();
 	JLabel Antwort3_label = new JLabel();
@@ -126,6 +128,27 @@ public class Abfrage implements ActionListener {
 		button3.addActionListener(this);
 		button3.setText("3");
 		
+		resetbutton.setBounds(1200, 100, 100, 100); 										//ändern
+		resetbutton.setFont(new Font("Arial Black", Font.BOLD, 20)); 
+		resetbutton.setBackground(Color.GRAY);
+		resetbutton.setFocusable(false);
+		resetbutton.addActionListener(listener -> {
+
+            Antwort1_label.setText(moeglichkeiten[index][0]);
+            Antwort2_label.setText(moeglichkeiten[index][1]);
+            Antwort3_label.setText(moeglichkeiten[index][2]);
+            index = 0;
+            textfeld.setText("Frage " + (index + 1));
+            i = 0;
+            antwort = "";
+            button3.setText("3");
+            button2.setText("2");
+            button1.setText("1");
+            textbereich.setText("Test1");
+
+        });
+		resetbutton.setText("Reset");
+		
 		Antwort1_label.setBounds(425, 200, 500, 100);
 		Antwort1_label.setBackground(Color.darkGray);
 		Antwort1_label.setForeground(Color.LIGHT_GRAY);
@@ -178,7 +201,8 @@ public class Abfrage implements ActionListener {
 		frame.add(textbereich);
 		frame.add(textfeld);
 		frame.add(pic);
-		
+		frame.add(resetbutton);
+        frame.add(resetbutton_label);
 		frame.setVisible(true);
 		
 		
