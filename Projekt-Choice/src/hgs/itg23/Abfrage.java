@@ -182,7 +182,7 @@ public class Abfrage implements ActionListener {
 		
 		
 		
-		richtige_antworten.setBounds(225, 225, 200, 100);
+		richtige_antworten.setBounds(825, 225, 200, 100);
 		richtige_antworten.setBackground(Color.BLUE);
 		richtige_antworten.setForeground(Color.BLACK);
 		richtige_antworten.setFont(new Font("Arial Black", Font.BOLD, 20));
