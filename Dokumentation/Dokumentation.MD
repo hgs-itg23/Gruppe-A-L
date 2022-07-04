@@ -13,7 +13,7 @@
 *Herr  Martin, Stephan Strittmatter*
 
 ## **1.)Programmidee** : 
-Die Projektidee die wir hatten war ein Multipel-Choice Spiel zu programmieren. Das Spiel soll sich beim Start öffenen und direkt starten. Es soll eine Frage angezeigt werden mit drei gegebenen Antwortmöglichkeiten. Diese Fragen gehören zu unterschiedlichen Kategorien, welche über der Frage angezeigt werden. Das Spiel beinhaltet noch oben rechts ein Resetbutton, welcher uns wieder zu ersten Frage bringt. Ebenfalls wenn man eine Antwortmöglichkeit anklickt kommt dazu ein passendes Bild.
+Die Projektidee die wir hatten war ein Multiple-Choice Spiel zu programmieren. Das Spiel soll sich beim Start öffenen und direkt starten. Es soll eine Frage angezeigt werden mit drei gegebenen Antwortmöglichkeiten. Diese Fragen gehören zu unterschiedlichen Kategorien, welche über der Frage angezeigt werden. Das Spiel beinhaltet noch oben rechts ein Resetbutton, welcher uns wieder zu ersten Frage bringt. Ebenfalls wenn man eine Antwortmöglichkeit anklickt kommt dazu ein passendes Bild.
 Am Ende werdem dazu noch die Punkte gezählt, indem eine Anzeige kommt die dir deine Anzahl anzeigt wie viele du falsch hast.
 
 ## **2.a)Beteiligte Personen mit Rollen**:
@@ -33,6 +33,7 @@ Rolle von Alexander Urkaev und Lucas Vogt:
  Alex:
 - Bilder mit Buttons verbunden
 - Punkteanzeige
+- Nächste Frage
 
  Lucas:
 - Resetbutton
