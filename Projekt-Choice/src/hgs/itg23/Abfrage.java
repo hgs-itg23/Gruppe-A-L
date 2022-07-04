@@ -39,7 +39,7 @@ public class Abfrage implements ActionListener {
 	ImageIcon B29 = new ImageIcon("bb.jpg");
 	ImageIcon B30 = new ImageIcon("blackli.jpg");
 	ImageIcon B31 = new ImageIcon("actionserie.jpg");
-	ImageIcon B32 = new ImageIcon("horroserien.jpg");
+	ImageIcon B32 = new ImageIcon("horroserien.png");
 	ImageIcon B33 = new ImageIcon("komödien.jpg");
 	ImageIcon B34 = new ImageIcon("6underground.jpg");
 	ImageIcon B35 = new ImageIcon("spenser.jpg");
@@ -71,13 +71,13 @@ public class Abfrage implements ActionListener {
             "Beliebteste Spiel-Genre?",
 
 
-            "Wie viel Menschen leben in Deutschland?",
-            "Welches ist das kleinste Land der Welt?",
-            "Welches Land hat die nördlichste Hauptstadt? ",
+            "Wie viele Menschen leben in Deutschland?",
+            "Welches Land ist das kleinste?",
+            "Welches Land hat die noerdlichste Hauptstadt? ",
 
 
-            "Wie viel Bundesländer hat Deutschland?",
-            "Was ist die größte Stadt der Welt?",
+            "Wie viel Bundeslaender hat Deutschland?",
+            "Was ist die groeßte Stadt der Welt?",
             "Welchen Wert hat Pi(π)?",
 
 
@@ -113,7 +113,7 @@ public class Abfrage implements ActionListener {
             { "3,14","3,44","3,46"},
 
             { "Stranger Things","Breaking bad","Blacklist"},
-            { "Action/Abenteuer","Thriller/Horror","Komödien/Familienfilme"},
+            { "Action/Abenteuer","Thriller/Horror","Komoedien/Familienfilme"},
             { "6 Underground","Spenser Confidential","The Dark knight"},
 
 
@@ -122,7 +122,7 @@ public class Abfrage implements ActionListener {
             { "Toyota","Mercedes","Ford"},
 
 
-            { "Katzen","Vögel","Hunde"},
+            { "Katzen","Voegel","Hunde"},
             { "Faultiere","Capybaras","Koalas"},
             { "Petermännchen(Fisch)","Portugiesische Galeere(Quallen)","Barrakudas(Fisch)"},
 
@@ -272,7 +272,7 @@ public class Abfrage implements ActionListener {
             button3.setText("3");
             button2.setText("2");
             button1.setText("1");
-            textbereich.setText("Test1");
+            textbereich.setText("Beliebtestes Spielt derzeit?");
             textfeld.setText("Kategorie Gaming");
        
         });
