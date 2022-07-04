@@ -6,7 +6,7 @@ Multipel-Choice
 
 ## **Autoren**: 
 
-*Lucas Vogt und Alexander Urkaev* 
+*`Lucas Vogt und Alexander Urkaev`* 
 
 ##  **Betreuer** : 
 
@@ -41,11 +41,11 @@ Lucas:
 ## **3.)Installationsanleitung**:
 
 - Zuerst gehen sie auf unseren folgenden Github-Link: https://github.com/hgs-itg23/Gruppe-A-L.git
-und kopieren unsere Code von dem Projekt unter "Code".
+und kopieren unsere Code von dem Projekt unter `Code`.
 - Diesen fügen sie dann in eclipse ein und klicken rechtsklick auf ein beliebiges Feld von den Package Explorer.
-- Daraufhin wählen sie "Import" aus, wodurch ein neues Fenster kommt mit dem Namen "Select".
-- Darunter wählen sie "Git" aus und als nächstes `Projects from Git`.
-- Dann gehen sie auf "Clone URI" und fügen den oben genannten "Code" ein.
+- Daraufhin wählen sie `Import` aus, wodurch ein neues Fenster kommt mit dem Namen `Select`.
+- Darunter wählen sie `Git` aus und als nächstes `Projects from Git`.
+- Dann gehen sie auf `Clone URI` und fügen den oben genannten "Code" ein.
 
 ## **4.)Bedienungsanleitung**:
 - Da das Spiel kein Startbutton hat, wird man direkt mit den Fragen konfrontiert.
