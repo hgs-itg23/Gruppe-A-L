@@ -2,7 +2,7 @@
 
 ## **Titel**: 
 
-Multipel-Choice 
+`Multiple Choice Spiel`
 
 ## **Autoren**: 
 
