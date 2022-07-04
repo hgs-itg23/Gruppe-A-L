@@ -44,6 +44,8 @@ und kopieren unsere Code von dem Projekt unter "Code".
 - Dann gehen sie auf "Clone URI" und fügen den oben genannten "Code" ein.
 
 ## **4.)Bedienungsanleitung**:
+- Da das Spiel kein Startbutton hat, wird man direkt mit den Fragen konfrontiert.
+- Das Spiel 
 ##  **Betreuer** : 
 
 *Herr  Martin, Stephan Strittmatter*
