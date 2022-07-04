@@ -49,11 +49,13 @@ und kopieren unsere Code von dem Projekt unter `Code`.
 
 ## **4.)Bedienungsanleitung**:
 - Da das Spiel kein Startbutton hat, wird man direkt mit den Fragen konfrontiert.
-- Man sieht 3 Antwortsmöglichkeit, mit darüber einer gegebenen Frage.
+- Man sieht 3 Antwortsmöglichkeit, mit einer gegebenen Frage.
 - Man sollte eine Antwort von drei Antworten Auswählen.
 - Wenn man sich nichtmehr sicher ist, kann man oben rechts den Resetbutton mit Doppelklick betätigen.
 
-## **5.a)Technische Dokumentation/Umgebung**:
+## **5.a)Technische Dokumentation**:
+
+Entwickelungsumgebung:
 
 
 
