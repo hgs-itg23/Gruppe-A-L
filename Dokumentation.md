@@ -25,10 +25,12 @@ Rolle von Alexander Urkaev und Lucas Vogt:
 - Arrays von Den Fragen,Möglichkeiten und Antworten
 
 Was wir einzelnt gemacht haben:
-- Alex:
+
+ Alex:
 - Bilder mit Buttons verbunden
 - Punkteanzeige
-- Lucas:
+
+  Lucas:
 - Resetbutton
 - Ende(Punkteanzeige)
 
