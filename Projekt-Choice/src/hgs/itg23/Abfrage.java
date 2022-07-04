@@ -55,27 +55,20 @@ public class Abfrage implements ActionListener {
 							"2",
 							"3",
 							"1",
-							
 							"1",
 							"3",
 							"1",
-							
 							"1",
 							"1",
 							"1",
-							
-							"",
-							
-							
-							
 							
 							
 							
 					};
 	
-	ImageIcon[][] bilder  =  {		{B1,B3,B2,},
-									{B2,B3,B1},
-									{B3,B1,B2}
+	ImageIcon[][] bilder  =  {		{B1,B3,B2,B3,B3,B3},
+									{B2,B3,B1,B3,B3,B3},
+									{B3,B1,B2,B3,B3,B3}
 			
 	};
 	
