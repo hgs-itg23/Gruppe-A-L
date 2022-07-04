@@ -28,13 +28,13 @@ Rolle von Alexander Urkaev und Lucas Vogt:
 - Button mit Actionlistner verbunden
 - Arrays von Den Fragen,Möglichkeiten und Antworten
 
-Was wir einzeln gemacht haben:
+# Was wir einzeln gemacht haben:
 
-# Alex:
+ Alex:
 - Bilder mit Buttons verbunden
 - Punkteanzeige
 
-# Lucas:
+ Lucas:
 - Resetbutton
 - Ende(Punkteanzeige)
 
