@@ -35,11 +35,15 @@ Lucas:
 - Ende(Punkteanzeige)
 
 ## **3.)Installationsanleitung**:
-Zuerst benötigen sie eclipse, wenn sie dies nicht besitzten installieren sie sich es.
-Daraufhin gehen sie auf unseren folgenden Github-Link:https://github.com/hgs-itg23/Gruppe-A-L.git
-und kopieren unsere Code von dem Projekt.
-Diesen fügen sie dann in eclipse ein 
 
+- Zuerst gehen sie auf unseren folgenden Github-Link:https://github.com/hgs-itg23/Gruppe-A-L.git
+und kopieren unsere Code von dem Projekt unter "Code".
+- Diesen fügen sie dann in eclipse ein und klicken rechtsclick auf ein beliebiges Feld von den Package Explorer.
+- Daraufhin wählen sie "Import" aus, wodurch ein neues Fenster kommt mit dem Namen "Select".
+- Darunter wählen sie "Git" aus und als nächstes "Projects from Git".
+- Dann gehen sie auf "Clone URI" und fügen den oben genannten "Code" ein.
+
+## **4.)Bedienungsanleitung**:
 ##  **Betreuer** : 
 
 *Herr  Martin, Stephan Strittmatter*
