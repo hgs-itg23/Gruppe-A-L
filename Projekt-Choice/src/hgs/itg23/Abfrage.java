@@ -17,21 +17,59 @@ public class Abfrage implements ActionListener {
 	ImageIcon B7 = new ImageIcon("pac.png");
 	
 	
-	String[] fragen = {			"Test1?",
-								"Test?",
-							    "Oder doch Test3?"
+	String[] fragen = {			"Beliebtestes Spielt derzeit?",
+								"Meist verkauftes Spiel allerzeiten?",
+							    "Belienteste Spiel-Genre?",
+							   
+							    
+							    "Wie viel Menschen leben in Deutschland?",
+							    "Welches ist das kleinste Land der Welt?",
+							    "Welches Land hat die nÃ¶rdlichste Hauptstadt? ",
+							    
+							    
+							    "Wie viel BundeslÃ¤nder hat Deutschland?",
+							    "Was ist die grÃ¶ÃŸte Stadt der Welt?",
+							    "Welchen Wert hat Pi(Ï€)?"
+							    
 				      };
 	
 	String[][] moeglichkeiten = {
-									{"ja","nein","vllt"},
-									{"lol","ok","nein"},
-									{"vv","bb","nn"}
-								};
+									{"Valorant","Elden Ring","Fortnite"},
+									{"Minecraft","Super Mario","Tetris"},
+									{"Actionspiele","Battle-Royal","Open World"},
+									
+									
+									{"81 Millionen ","82 Millionen","80 Millionen"},
+									{ "Monaco","Frankreich","Vatikanstadt"},
+									{  "Island","Russland","Irland"},
+									
+									
+									{ "16","2","14"},
+									{ "Tokio","Moskau","Shanghai"},
+									{ "3,14","3,44","3,46"},
+									
+									
+	};
 	
 	String[] antworten = {
-							"1",
 							"2",
 							"3",
+							"1",
+							
+							"1",
+							"3",
+							"1",
+							
+							"1",
+							"1",
+							"1",
+							
+							"",
+							
+							
+							
+							
+							
 							
 					};
 	
@@ -87,14 +125,14 @@ public class Abfrage implements ActionListener {
 		
 		
 		
-		textfeld.setBounds(155, 43, 650, 50);										//Höchste priorität
+		textfeld.setBounds(155, 43, 650, 50);										//HÃ¶chste prioritÃ¤t
 		textfeld.setBackground(Color.BLUE);										// Optional
 		textfeld.setForeground(Color.WHITE);										// Optional
-		textfeld.setFont(new Font("Ink Free", Font.BOLD,30));          				// WICHTIG! Ändern
+		textfeld.setFont(new Font("Ink Free", Font.BOLD,30));          				// WICHTIG! Ã„ndern
 		textfeld.setBorder(BorderFactory.createBevelBorder(1));						// So lassen
 		textfeld.setHorizontalAlignment(textfeld.CENTER);							// Optional	
-		textfeld.setEditable(false);												// So lassen90ßßßßßßßßßßßßßßßßß
-		textfeld.setText("Test");													//	Ändern so bald fertig
+		textfeld.setEditable(false);												// So lassen90ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸ
+		textfeld.setText("Test");													//	Ã„ndern so bald fertig
 										
 		
 		textbereich.setBounds(155, 93, 650, 50);	
@@ -107,7 +145,7 @@ public class Abfrage implements ActionListener {
 		textbereich.setText("Test1");			
 		
 		
-		button1.setBounds(200, 200, 500, 100); 										//ändern
+		button1.setBounds(200, 200, 500, 100); 										//Ã¤ndern
 		button1.setFont(new Font("Arial Black", Font.BOLD, 20)); 
 		button1.setBackground(Color.BLUE);
 		button1.setForeground(Color.WHITE);	
@@ -116,7 +154,7 @@ public class Abfrage implements ActionListener {
 		button1.setText("1");
 		
 		
-		button2.setBounds(200, 400, 500, 100); 										//ändern
+		button2.setBounds(200, 400, 500, 100); 										//Ã¤ndern
 		button2.setFont(new Font("Arial Black", Font.BOLD, 20)); 
 		button2.setBackground(Color.BLUE);
 		button2.setForeground(Color.WHITE);	
@@ -124,7 +162,7 @@ public class Abfrage implements ActionListener {
 		button2.addActionListener(this);
 		button2.setText("2");
 		
-		button3.setBounds(200, 600, 500, 100); 										//ändern
+		button3.setBounds(200, 600, 500, 100); 										//Ã¤ndern
 		button3.setFont(new Font("Arial Black", Font.BOLD, 20)); 
 		button3.setBackground(Color.BLUE);
 		button3.setForeground(Color.WHITE);	
@@ -132,7 +170,7 @@ public class Abfrage implements ActionListener {
 		button3.addActionListener(this);
 		button3.setText("3");
 		
-		resetbutton.setBounds(1640, 10, 250, 100); 										//ändern
+		resetbutton.setBounds(1640, 10, 250, 100); 										//Ã¤ndern
 		resetbutton.setFont(new Font("Arial Black", Font.BOLD, 20)); 
 		resetbutton.setBackground(Color.BLUE);
 		resetbutton.setForeground(Color.WHITE);	
@@ -143,14 +181,15 @@ public class Abfrage implements ActionListener {
 	            Antwort2_label.setText(moeglichkeiten[index][1]);
 	            Antwort3_label.setText(moeglichkeiten[index][2]);
             index = 0;
-            textfeld.setText("Frage " + (index + 1));
+           
             i = 0;
             antwort = "";
             button3.setText("3");
             button2.setText("2");
             button1.setText("1");
             textbereich.setText("Test1");
-
+            textfeld.setText("Kategorie Gaming");
+       
         });
 		resetbutton.setText("Reset");
 		
@@ -170,13 +209,7 @@ public class Abfrage implements ActionListener {
 		Antwort3_label.setForeground(Color.WHITE);
 		Antwort3_label.setFont(new Font("Arial Black", Font.BOLD, 20));
 		
-		rest_zeit.setBounds(1200, 510, 100, 100);
-		rest_zeit.setBackground(Color.BLACK);
-		rest_zeit.setForeground(Color.BLUE);
-		rest_zeit.setFont(new Font("Arial Black", Font.BOLD, 20));
-		rest_zeit.setBorder(BorderFactory.createBevelBorder(1));
-		rest_zeit.setText(String.valueOf(sekunden));
-		rest_zeit.setHorizontalAlignment(rest_zeit.CENTER);
+
 		
 		
 		
@@ -193,9 +226,7 @@ public class Abfrage implements ActionListener {
 		pic.setBounds(950, 150, 500, 550);
 		pic.setVisible(false);
 		
-		Anzeige.setBounds(1500, 10, 250, 100);
-		frame.add(Anzeige);                                                               // Alex anschauen
-		
+	                                              
 		//frame.add(rest_zeit);
 		frame.add(Antwort1_label);
 		frame.add(Antwort2_label);
@@ -226,8 +257,37 @@ public class Abfrage implements ActionListener {
 				
 			} 
 			else {
+				if(index==0) {
+					textfeld.setText("Kategorie Gaming");
+				}
+				if(index==3) {
+					textfeld.setText("Kategorie LÃ¤nder");
+				}
+				if(index==6) {
+					textfeld.setText("Kategorie Allgemeinwissen");
+				}
+				if(index==9) {
+					textfeld.setText("Kategorie Netflix-Serien");
+				}
+				if(index==12) {
+					textfeld.setText("Kategorie Tiere");
+
+				}
+				if(index==15) {
+					textfeld.setText("Kategorie Autos");
+				}
 				
-				textfeld.setText("Frage "+ (index+1));
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 				textbereich.setText(fragen[index]);
 				Antwort1_label.setText(moeglichkeiten[index][0]);
 				Antwort2_label.setText(moeglichkeiten[index][1]);
