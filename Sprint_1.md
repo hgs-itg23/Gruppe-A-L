@@ -7,3 +7,9 @@
 - _der Sprint soll einen Frame beeinhalten und noch buttons, die mit der Maus anklickbar sind. Nach dem Klick soll dann die allgemeine Logik des Projektes einbezogen werden, d.h nachdem man ein button anklickt, erfolgt dann etwas(Konsequenz)._ 
 
 
+***SPRINT 2*** 
+
+## Wie lange geht der zweite Sprint? ##
+-  _der zweite Sprint soll 6 Wochen gehen ._ 
+
+- _der Sprint soll._ 
