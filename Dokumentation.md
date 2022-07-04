@@ -16,21 +16,21 @@ Am Ende werdem dazu noch die Punkte gezählt, indem eine Anzeige kommt die dir d
 Das Projekt wurde von Alexander Urkaev und Lucas Vogt fertiggestellt.
 
 Rolle von Alexander Urkaev und Lucas Vogt:
--Erstellen von Frame 
--Erstellen von JLabel
--Erstellen von den Button(JButton)
--Erstellen von Textfeldern
--Erstellen von Textbereichen
--Button mit Actionlistner verbunden
--Arrays von Den Fragen,Möglichkeiten und Antworten
+- Erstellen von Frame 
+- Erstellen von JLabel
+- Erstellen von den Button(JButton)
+- Erstellen von Textfeldern
+- Erstellen von Textbereichen
+- Button mit Actionlistner verbunden
+- Arrays von Den Fragen,Möglichkeiten und Antworten
 
 Was wir einzelnt gemacht haben:
 Alex:
--Bilder mit Buttons verbunden
--Punkteanzeige
+- Bilder mit Buttons verbunden
+- Punkteanzeige
 Lucas:
--Resetbutton
--Ende(Punkteanzeige)
+- Resetbutton
+- Ende(Punkteanzeige)
 
 ## **3.)Installationsanleitung**:
 Zuerst benötigen sie eclipse, wenn sie dies nicht besitzten installieren sie sich es.
