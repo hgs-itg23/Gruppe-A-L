@@ -20,7 +20,9 @@ Das Projekt wurde von Alexander Urkaev und Kucas Vogt fertiggestellt.
 
 ## **3.)Installationsanleitung**:
 Zuerst benötigen sie eclipse, wenn sie dies nicht besitzten installieren sie sich es.
-Daraufhin gehen sie auf unseren folgenden Github-Link:
+Daraufhin gehen sie auf unseren folgenden Github-Link:https://github.com/hgs-itg23/Gruppe-A-L.git
+und kopieren unsere Code von dem Projekt.
+Diesen fügen sie dann in eclipse ein 
 
 ##  **Betreuer** : 
 
