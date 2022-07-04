@@ -8,6 +8,10 @@ Multipel-Choice
 
 *Lucas Vogt und Alexander Urkaev* 
 
+##  **Betreuer** : 
+
+*Herr  Martin, Stephan Strittmatter*
+
 ## **1.)Programmidee** : 
 Die Projektidee die wir hatten war ein Multipel-Choice Spiel zu programmieren. Das Spiel soll sich beim Start öffenen und direkt starten. Es soll eine Frage angezeigt werden mit drei gegebenen Antwortmöglichkeiten. Diese Fragen gehören zu unterschiedlichen Kategorien, welche über der Frage angezeigt werden. Das Spiel beinhaltet noch oben rechts ein Resetbutton, welcher uns wieder zu ersten Frage bringt. Ebenfalls wenn man eine Antwortmöglichkeit anklickt kommt dazu ein passendes Bild.
 Am Ende werdem dazu noch die Punkte gezählt, indem eine Anzeige kommt die dir deine Anzahl anzeigt wie viele du falsch hast.
@@ -40,7 +44,7 @@ Lucas:
 und kopieren unsere Code von dem Projekt unter "Code".
 - Diesen fügen sie dann in eclipse ein und klicken rechtsklick auf ein beliebiges Feld von den Package Explorer.
 - Daraufhin wählen sie "Import" aus, wodurch ein neues Fenster kommt mit dem Namen "Select".
-- Darunter wählen sie "Git" aus und als nächstes "Projects from Git".
+- Darunter wählen sie "Git" aus und als nächstes ´Projects from Git´.
 - Dann gehen sie auf "Clone URI" und fügen den oben genannten "Code" ein.
 
 ## **4.)Bedienungsanleitung**:
@@ -49,9 +53,7 @@ und kopieren unsere Code von dem Projekt unter "Code".
 - Man sollte eine Antwort von drei Antworten Auswählen.
 - Wenn man sich nichtmehr sicher ist, kann man oben rechts den Resetbutton mit Doppelklick betätigen.
 
-##  **Betreuer** : 
+## **5.a)Technische Dokumentation/Umgebung**:
 
-*Herr  Martin, Stephan Strittmatter*
 
-## **Programmiersprache**: 
 
