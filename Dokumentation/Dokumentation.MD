@@ -40,7 +40,7 @@ Lucas:
 
 ## **3.)Installationsanleitung**:
 
-- Zuerst gehen sie auf unseren folgenden Github-Link: `https://github.com/hgs-itg23/Gruppe-A-L.git`
+- Zuerst gehen sie auf unseren folgenden Github-Link: https://github.com/hgs-itg23/Gruppe-A-L.git
 und kopieren unsere Code von dem Projekt unter `Code`.
 - Diesen fügen sie dann in eclipse ein und klicken rechtsklick auf ein beliebiges Feld von den Package Explorer.
 - Daraufhin wählen sie `Import` aus, wodurch ein neues Fenster kommt mit dem Namen `Select`.
