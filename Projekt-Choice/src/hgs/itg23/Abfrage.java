@@ -16,7 +16,8 @@ public class Abfrage implements ActionListener {
 	ImageIcon B6 = new ImageIcon("Download.jpg");
 	ImageIcon B7 = new ImageIcon("bo2.jpg");
 	ImageIcon B8 = new ImageIcon("battle.jpg");
-	ImageIcon B9 = new ImageIcon("81.jpg");
+	ImageIcon B11 = new ImageIcon("botw.jpg");
+	ImageIcon B9 = new ImageIcon("81.png");
 	ImageIcon B10 = new ImageIcon("82.jpg");
 	ImageIcon B12 = new ImageIcon("80.jpg");
 	ImageIcon B13 = new ImageIcon("monacco.png");
@@ -36,29 +37,38 @@ public class Abfrage implements ActionListener {
 	ImageIcon B27 = new ImageIcon("pi.png");
 	ImageIcon B28 = new ImageIcon("strangerthings.jpeg");
 	ImageIcon B29 = new ImageIcon("bb.jpg");
-	ImageIcon B30 = new ImageIcon("blackli");
-	ImageIcon B31 = new ImageIcon("bo2.jpg");
-	ImageIcon B32 = new ImageIcon("battle.jpg");
-	ImageIcon B33 = new ImageIcon("81.jpg");
-	ImageIcon B34 = new ImageIcon("82.jpg");
-	ImageIcon B35 = new ImageIcon("80.jpg");
-	ImageIcon B36 = new ImageIcon("monacco.png");
-	ImageIcon B37 = new ImageIcon("fra.png");
-	ImageIcon B38 = new ImageIcon("vati.jpg");
-	ImageIcon B39 = new ImageIcon("island.png");
-	ImageIcon B40 = new ImageIcon("russland.png");
-	ImageIcon B41 = new ImageIcon("irland.png");
-	ImageIcon B42 = new ImageIcon("16.jpg");
-	ImageIcon B43 = new ImageIcon("2.png");
-	ImageIcon B44 = new ImageIcon("14.png");
-	ImageIcon B45 = new ImageIcon("tokio.jpg");
-	ImageIcon B46 = new ImageIcon("moskau.jpg");
-	ImageIcon B47 = new ImageIcon("shanghai.jpg");
+	ImageIcon B30 = new ImageIcon("blackli.jpg");
+	ImageIcon B31 = new ImageIcon("actionserie.jpg");
+	ImageIcon B32 = new ImageIcon("horroserien.jpg");
+	ImageIcon B33 = new ImageIcon("komödien.jpg");
+	ImageIcon B34 = new ImageIcon("6underground.jpg");
+	ImageIcon B35 = new ImageIcon("spenser.jpg");
+	ImageIcon B36 = new ImageIcon("darknight.jpg");
+	ImageIcon B37 = new ImageIcon("slr300.jpg");
+	ImageIcon B38 = new ImageIcon("bugatti.jpg");
+	ImageIcon B39 = new ImageIcon("rollroyse.jpg");
+	ImageIcon B40 = new ImageIcon("bmw.jpg");
+	ImageIcon B41 = new ImageIcon("mercedeslogo.png");
+	ImageIcon B42 = new ImageIcon("lambo.jpg");
+	ImageIcon B66 = new ImageIcon("toyota.png");
+	ImageIcon B65 = new ImageIcon("mercedeslogo.png");
+	ImageIcon B67 = new ImageIcon("ford.jpg");
+	ImageIcon B43 = new ImageIcon("katze.jpg");
+	ImageIcon B44 = new ImageIcon("vogel.jpg");
+	ImageIcon B45 = new ImageIcon("hund.jpg");
+	ImageIcon B46 = new ImageIcon("lucas.jpg");
+	ImageIcon B47 = new ImageIcon("capybara.jpg");
+	ImageIcon B48 = new ImageIcon("koala.jpg");
+	ImageIcon B49 = new ImageIcon("fisch.jpg");
+	ImageIcon B50 = new ImageIcon("qualle.jpg");
+	ImageIcon B51 = new ImageIcon("barrakuda.jpg");
+	
+	
 	
 	
 	String[] fragen = {            "Beliebtestes Spielt derzeit?",
             "Meist verkauftes Spiel allerzeiten?",
-            "Belienteste Spiel-Genre?",
+            "Beliebteste Spiel-Genre?",
 
 
             "Wie viel Menschen leben in Deutschland?",
@@ -71,12 +81,12 @@ public class Abfrage implements ActionListener {
             "Welchen Wert hat Pi(π)?",
 
 
-            "Was beliebteste Netflix-Serie?",
-            "Was sind die beliebtestem Netflix-Generes?",
-            "Was ist der Beliebtester Netflix-Film?",
+            "Was ist die  beliebteste Netflix-Serie?",
+            "Was ist die beliebteste Netflix-Generes?",
+            "Was ist der beliebtester Netflix-Film?",
 
 
-            "Teurstes Auto der Welt?",
+            "Teuerstes Auto der Welt?",
             "Beliebteste Automarke der Welt?",
             "Erfolgreicheste Automarke der Welt?",
 
@@ -150,9 +160,9 @@ public class Abfrage implements ActionListener {
 	};
 
 	
-	ImageIcon[][] bilder  =  {		{B1,B4,B7,B3,B3,B3},
-									{B2,B5,B8,B3,B3,B3},
-									{B3,B6,B9,B3,B3,B3}
+	ImageIcon[][] bilder  =  {	{B1,B4,B7,B9,B13,B16,B19,B22,B25,B28,B31,B34,B37,B40,B66,B43,B46,B49},
+			                    {B2,B5,B8,B10,B14,B17,B20,B23,B26,B29,B32,B35,B38,B41,B65,B44,B47,B50},
+			                    {B3,B6,B11,B12,B15,B18,B21,B24,B27,B30,B33,B36,B39,B42,B67,B45,B48,B51}
 			
 	};
 	
@@ -180,7 +190,6 @@ public class Abfrage implements ActionListener {
 	JLabel Antwort1_label = new JLabel();
 	JLabel Antwort2_label = new JLabel();
 	JLabel Antwort3_label = new JLabel();
-	
 	JTextField richtige_antworten = new JTextField();
 	
 	JLabel pic = new JLabel();
@@ -201,17 +210,17 @@ public class Abfrage implements ActionListener {
 		
 		
 		
-		textfeld.setBounds(155, 43, 650, 50);										//HÃ¶chste prioritÃ¤t
-		textfeld.setBackground(Color.BLUE);										// Optional
-		textfeld.setForeground(Color.WHITE);										// Optional
-		textfeld.setFont(new Font("Ink Free", Font.BOLD,30));          				// WICHTIG! Ã„ndern
-		textfeld.setBorder(BorderFactory.createBevelBorder(1));						// So lassen
-		textfeld.setHorizontalAlignment(textfeld.CENTER);							// Optional	
-		textfeld.setEditable(false);												// So lassen90ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸ
-		textfeld.setText("Test");													//	Ã„ndern so bald fertig
+		textfeld.setBounds(155, 43, 800, 50);										
+		textfeld.setBackground(Color.BLUE);										
+		textfeld.setForeground(Color.WHITE);										
+		textfeld.setFont(new Font("Ink Free", Font.BOLD,30));          				
+		textfeld.setBorder(BorderFactory.createBevelBorder(1));						
+		textfeld.setHorizontalAlignment(textfeld.CENTER);							
+		textfeld.setEditable(false);												
+		textfeld.setText("Test");												
 										
 		
-		textbereich.setBounds(155, 93, 650, 50);	
+		textbereich.setBounds(155, 93, 800, 50);	
 		textbereich.setLineWrap(true);
 		textbereich.setBackground(Color.BLUE);										
 		textbereich.setForeground(Color.WHITE);										
@@ -221,7 +230,7 @@ public class Abfrage implements ActionListener {
 		textbereich.setText("Test1");			
 		
 		
-		button1.setBounds(200, 200, 500, 100); 										//Ã¤ndern
+		button1.setBounds(200, 200, 500, 100); 										
 		button1.setFont(new Font("Arial Black", Font.BOLD, 20)); 
 		button1.setBackground(Color.BLUE);
 		button1.setForeground(Color.WHITE);	
@@ -230,7 +239,7 @@ public class Abfrage implements ActionListener {
 		button1.setText("1");
 		
 		
-		button2.setBounds(200, 400, 500, 100); 										//Ã¤ndern
+		button2.setBounds(200, 400, 500, 100); 									
 		button2.setFont(new Font("Arial Black", Font.BOLD, 20)); 
 		button2.setBackground(Color.BLUE);
 		button2.setForeground(Color.WHITE);	
@@ -238,7 +247,7 @@ public class Abfrage implements ActionListener {
 		button2.addActionListener(this);
 		button2.setText("2");
 		
-		button3.setBounds(200, 600, 500, 100); 										//Ã¤ndern
+		button3.setBounds(200, 600, 500, 100); 									
 		button3.setFont(new Font("Arial Black", Font.BOLD, 20)); 
 		button3.setBackground(Color.BLUE);
 		button3.setForeground(Color.WHITE);	
@@ -246,7 +255,7 @@ public class Abfrage implements ActionListener {
 		button3.addActionListener(this);
 		button3.setText("3");
 		
-		resetbutton.setBounds(1640, 10, 250, 100); 										//Ã¤ndern
+		resetbutton.setBounds(1640, 10, 250, 100); 										
 		resetbutton.setFont(new Font("Arial Black", Font.BOLD, 20)); 
 		resetbutton.setBackground(Color.BLUE);
 		resetbutton.setForeground(Color.WHITE);	
@@ -287,23 +296,19 @@ public class Abfrage implements ActionListener {
 		
 
 		
-		
-		
-		
-		
-		richtige_antworten.setBounds(825, 225, 200, 100);
+		richtige_antworten.setBounds(1640, 200, 200, 100);
 		richtige_antworten.setBackground(Color.BLUE);
-		richtige_antworten.setForeground(Color.BLACK);
+		richtige_antworten.setForeground(Color.WHITE);
 		richtige_antworten.setFont(new Font("Arial Black", Font.BOLD, 20));
 		richtige_antworten.setBorder(BorderFactory.createBevelBorder(1));
-		richtige_antworten.setHorizontalAlignment(richtige_antworten.CENTER); // JTextField.CENTER
+		richtige_antworten.setHorizontalAlignment(richtige_antworten.CENTER); 
 		richtige_antworten.setEditable(false);
 		
 		pic.setBounds(950, 150, 500, 550);
 		pic.setVisible(false);
 		
 	                                              
-		//frame.add(rest_zeit);
+		
 		frame.add(Antwort1_label);
 		frame.add(Antwort2_label);
 		frame.add(Antwort3_label);
@@ -345,12 +350,13 @@ public class Abfrage implements ActionListener {
 				if(index==9) {
 					textfeld.setText("Kategorie Netflix-Serien");
 				}
-				if(index==12) {
-					textfeld.setText("Kategorie Tiere");
+				if(index==12) 
+				{textfeld.setText("Kategorie Autos");
+					
 
 				}
 				if(index==15) {
-					textfeld.setText("Kategorie Autos");
+					textfeld.setText("Kategorie Tiere");
 				}
 				
 				
@@ -550,6 +556,7 @@ pic.setVisible(true);
 			button3.setEnabled(false);
 			
 			ergebnis = (int)((richtigeantwort/(double)alle_fragen)*100);
+			
 			
 			textfeld.setText("Dein Ergebnis");
 			textbereich.setText("");
