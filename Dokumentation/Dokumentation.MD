@@ -56,6 +56,8 @@ und kopieren unsere Code von dem Projekt unter `Code`.
 ## **5.a)Technische Dokumentation**:
 
 Entwickelungsumgebung:
+- Wir haben hauptsächlich mit `JAVA` in Eclipse gearbeitet.
+- Ebenfalls haben wir noch mit `MARKDOWN` gearbeitet.
 
 
 
