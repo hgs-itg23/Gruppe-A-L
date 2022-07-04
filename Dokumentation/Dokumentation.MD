@@ -30,11 +30,11 @@ Rolle von Alexander Urkaev und Lucas Vogt:
 
 Was wir einzeln gemacht haben:
 
-Alex:
+#Alex:
 - Bilder mit Buttons verbunden
 - Punkteanzeige
 
-Lucas:
+#Lucas:
 - Resetbutton
 - Ende(Punkteanzeige)
 
@@ -54,6 +54,8 @@ und kopieren unsere Code von dem Projekt unter `Code`.
 - Wenn man sich nichtmehr sicher ist, kann man oben rechts den Resetbutton mit Doppelklick betätigen.
 
 ## **5.a)Technische Dokumentation/Umgebung**:
+
+
 
 
 
