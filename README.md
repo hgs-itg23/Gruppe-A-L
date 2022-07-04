@@ -2,7 +2,7 @@
 
 ## **Titel**: 
 
-*Handyapp* 
+*Multipel Choice Spiel* 
 
 ## **Autoren**: 
 
@@ -22,7 +22,7 @@
 
 ##  **Projektideen**:
 
-Geschichtsrätsel(Multiple choice); Gechichte aus mehreren persepektiven; Kugel(eher nicht)
+Multipel Choice Spiel mit verschiedenen Kategorien 
 
 
 ## **Projektarbeit vom 15.02.2022**:
