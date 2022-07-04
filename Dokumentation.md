@@ -15,7 +15,7 @@ Am Ende werdem dazu noch die Punkte gezählt, indem eine Anzeige kommt die dir d
 ##  **2.)Projektdokumentation**:
 
 ## **2.a)Beteiligte Personen mit Rollem**:
-Das Projekt wurde von Alexander Urkaev und Kucas Vogt fertiggestellt.
+Das Projekt wurde von Alexander Urkaev und Lucas Vogt fertiggestellt.
 
 
 ## **3.)Installationsanleitung**:
