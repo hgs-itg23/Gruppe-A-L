@@ -70,6 +70,6 @@ Repository:
 
 
 
-## **6.)Sclusswort**:
+## **6.)Schlusswort**:
 
 
