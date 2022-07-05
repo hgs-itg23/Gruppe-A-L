@@ -62,9 +62,11 @@ Entwickelungsumgebung:
 
 Repository:
 - Als Repository haben wir `Github` benutzt.
-Eingestzte Tools und Software:
+
+ Eingestzte Tools und Software:
+ 
 -  Wir haben als Software `Eclipse` benutzt und mit `JAVA` programmiert.
--  Dazu haben wir `Visual Studio` und `Github` benutzt.
+-  Dazu haben wir `Visual Studio` auch benutzt.
 
 
 
