@@ -76,7 +76,7 @@ public class Abfrage implements ActionListener {
             "Welches Land hat die noerdlichste Hauptstadt? ",
 
 
-            "Wie viel Bundeslaender hat Deutschland?",
+            "Wie viele Bundeslaender hat Deutschland?",
             "Was ist die groeßte Stadt der Welt?",
             "Welchen Wert hat Pi(π)?",
 
@@ -342,7 +342,7 @@ public class Abfrage implements ActionListener {
 					textfeld.setText("Kategorie Gaming");
 				}
 				if(index==3) {
-					textfeld.setText("Kategorie LÃ¤nder");
+					textfeld.setText("Kategorie Laender");
 				}
 				if(index==6) {
 					textfeld.setText("Kategorie Allgemeinwissen");
