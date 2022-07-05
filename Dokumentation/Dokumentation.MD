@@ -62,11 +62,15 @@ Entwickelungsumgebung:
 
 Repository:
 - Als Repository haben wir `Github` benutzt.
-Eingestzte Tools und Software:
+
+ Eingestzte Tools und Software:
+ 
 -  Wir haben als Software `Eclipse` benutzt und mit `JAVA` programmiert.
--  Dazu haben wir `Visual Studio` und `Github` benutzt.
+-  Dazu haben wir `Visual Studio` auch benutzt.
 
 
 
+## **6.)Schlusswort**:
 
+Durch unser Projekt haben wir sehr viel gelernt. Wir sind besser mit der Programmiersprache `JAVA` geworden und kennen uns besser bei `Github `aus. Insgesamt sehen wir unser Projekt als ein Erfolg, da wir alles selber gemacht haben ohne jegliche Hilfe. Wir konnte uns gut miteinander verständigen und zusammen arbeiten. Uns hat das Projekt Spaß gemacht, jedoch würden wir nächstes mal was anders probieren.
 
