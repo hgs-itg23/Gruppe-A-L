@@ -72,4 +72,5 @@ Repository:
 
 ## **6.)Schlusswort**:
 
+Durch unser Projekt haben wir sehr viel gelernt. Wir sind besser mit der Programmiersprache `JAVA` geworden und kennen uns besser bei `Github `aus. Insgesamt sehen wir unser Projekt als ein Erfolg, da wir alles selber gemacht haben ohne jegliche Hilfe. Wir konnte uns gut miteinander verständigen und zusammen arbeiten. Uns hat das Projekt Spaß gemacht, jedoch würden wir nächstes mal was anders probieren.
 
